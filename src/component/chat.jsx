@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
 import "./chat.css";
-import { ChatIcon } from "@chakra-ui/icons";
 import io from "socket.io-client";
 
 const userPrompt = prompt("Please enter your name:");
@@ -96,7 +95,7 @@ const Chat = (props) => {
           </figure>
         </div>
 
-        <div className="messages">
+        <div className="messages"><div className="messages"><div className="messages">
           <div
             className="messages-content"
             style={{ overflowY: "scroll", marginLeft: -3 }}
