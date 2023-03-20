@@ -13,7 +13,18 @@ const ChatWidget = (props) => {
 
   return (  
     <div>
-      
+        <Chat isVisible={showDiv} ChatApi={props.ChatApi}/>     
+        <div className="button-container">
+        <button className="message-button"  onClick={handleClickShow}>
+           <ChatIcon/>
+        </button>
+     </div>
+     <Chat isVisible={showDiv} ChatApi={props.ChatApi}/>     
+        <div className="button-container">
+        <button className="message-button"  onClick={handleClickShow}>
+           <ChatIcon/>
+        </button>
+     </div>
     </div>
   );
 };
