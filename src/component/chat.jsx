@@ -95,7 +95,7 @@ const Chat = (props) => {
           </figure>
         </div>
 
-        <div className="messages"><div className="messages"><div className="messages">
+        <div className="messages">
           <div
             className="messages-content"
             style={{ overflowY: "scroll", marginLeft: -3 }}
